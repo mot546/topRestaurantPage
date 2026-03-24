@@ -14,6 +14,8 @@ export default function loadHome(){
     slogan.textContent = "Delicious All-Day Silog Meals";
     const viewMenu = document.createElement('button');
     viewMenu.textContent = "Menu";
+    viewMenu.setAttribute("type", "button");
+    viewMenu.classList.add("menu","tab-buttons");
 
     welcome.classList.add("welcome");
     restName.classList.add("restaurant-name");

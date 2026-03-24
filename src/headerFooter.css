@@ -10,6 +10,7 @@ nav button{
     color: #FFF8F0;
     border: none;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 nav button:hover{
