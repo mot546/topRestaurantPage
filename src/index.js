@@ -2,7 +2,7 @@ import "./styles.css";
 import "./headerFooter.css"
 import homeDom from "./homeDom.js";
 import menuDom from "./menuDom.js";
-// import aboutDom from "./aboutDom.js";
+import aboutDom from "./aboutDom.js";
 
 function buttonTabListeners(){
     const buttons = document.querySelectorAll('.tab-buttons');
@@ -18,9 +18,9 @@ function buttonTabListeners(){
         else if(button.id == "menu" || button.classList.contains("menu")){
             menuDom();
         }
-        // else{
-        //     aboutDom();
-        // }
+        else{
+            aboutDom();
+        }
         
         });
     });
