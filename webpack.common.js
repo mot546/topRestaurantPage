@@ -11,11 +11,6 @@ export default{
         clean: true,
     },
 
-    devtool: "eval-source-map",
-    devServer: {
-        watchFiles: ["./src/index.html"],
-    },
-    
     plugins:[
         new HtmlWebpackPlugin({
             template: "./src/index.html",
